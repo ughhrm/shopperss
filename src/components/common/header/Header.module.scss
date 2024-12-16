@@ -1,0 +1,42 @@
+.container {
+    width: 100%;
+    height: 16vh;
+    border-bottom:1px solid lightgray;
+
+    .context {
+        width: 70%;
+
+        .inputBox {
+            gap: 10px;
+
+            button {
+                background-color: transparent;
+                border: none;
+                font-size: 18px;
+                color: gray;
+            }
+
+            input {
+                border: none;
+                outline: none;
+
+            }
+        }
+
+        p {
+            border: 3px solid black;
+            padding: 5px 18px;
+            letter-spacing: 5px;
+        }
+        .iconBox{
+            gap: 15px;
+            button{
+                background-color: transparent;
+                border: none;
+                font-size: 18px;
+                color: gray;
+            }
+        }
+
+    }
+}
